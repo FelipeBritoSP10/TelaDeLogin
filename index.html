@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de login</title>
-    <link rel="icon" type="image/icon" href="user.png">
-    <link rel="stylesheet" href="estilo.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro</title>
+<link rel="icon" type="image/icon" href="user.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container">
-            <h2>Tela de login</h2>
-            <div class="input-group">
-                <label for="username">Nome de Usuário:</label>
-                <input type="text" placeholder="Digite seu nome de usuário" id="username" name="username" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Senha:</label>
-                <input type="password" placeholder="Digite sua senha" id="password" name="password"  required>
-            </div>
-            <button type="submit" class="btn">Entrar</button>
-    </div>
+<header class="header">
+<div class="header-container">
+<h1 class="header-title">Gerenciador De Estoque</h1>
+</div>
+</header>
+<div class="container">
+<h2>Login</h2>
+<form id="loginForm">
+<div class="input-group">
+<label for="email">Email:</label>
+<input type="email" placeholder="Email..." id="email" name="email" required>
+</div>
+<div class="input-group">
+<label for="password">Senha:</label>
+<input type="password" placeholder="Senha..." id="password" name="password"  required>
+</div>
+<button type="submit" class="btn">Entrar</button>
+</form>
+</div>
+<script src="moviment.js"></script>
 </body>
 </html>
