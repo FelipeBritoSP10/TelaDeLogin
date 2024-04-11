@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #E8F0FE;
+    background-color: #708090;
 }
 
 .header {
@@ -21,18 +21,18 @@ body {
     margin: 0;
 }
 
-
 .container {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(18, 18, 53);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2{
     text-align: center;
+    color: #FFC107;
 }
 
 .input-group {
@@ -42,6 +42,7 @@ h2{
 label {
     display: block;
     margin-bottom: 5px;
+    color: #FFC107;
 }
 
 input[type="email"],
